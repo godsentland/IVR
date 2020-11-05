@@ -11,17 +11,12 @@ public class BackButton : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        CurrentScene = SceneManager.GetActiveScene();
     }
 
     public void Back()
     {
-        SceneManager.LoadScene("SampleScene");
+        Debug.Log("BackButton pressed");
+        SceneManager.LoadScene(CurrentScene.buildIndex - 1);
     }
 }

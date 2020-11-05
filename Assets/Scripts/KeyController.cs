@@ -9,7 +9,8 @@ public class KeyController : MonoBehaviour
 
     public void Vanish()
     {
-        Destroy(this.gameObject);
+        //Destroy(this.gameObject);
+        this.gameObject.SetActive(false);
     }
 
     private void FixedUpdate()

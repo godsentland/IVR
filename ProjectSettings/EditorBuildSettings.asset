@@ -9,9 +9,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: b07afdf53ae864044a0289bb4e21312c
   - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: d7bd6195384831649ba9f28e624d2c46
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/FirstAR.unity
     guid: f260bbcb11dcbd34e9495b617c67338e
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 438f3f3b9d909004695196a1a20104b8
+  - enabled: 1
+    path: Assets/Scenes/SecondAR.unity
+    guid: 292481a045329694ea0b607b21a5d6ec
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 2a8ab2d09b660834caa1ab1103a039af
+  - enabled: 1
+    path: Assets/Scenes/ThirdAR.unity
+    guid: f12205f168261324cabc24d490defe1b
   m_configObjects: {}

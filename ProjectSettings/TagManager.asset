@@ -6,6 +6,26 @@ TagManager:
   tags:
   - doorzone
   - nextlevel
+  - doorzone1
+  - AR1
+  - Level1
+  - Level2
+  - back to start
+  - yellow zone for a door
+  - AR2
+  - yellowcube
+  - greencube
+  - bluecube
+  - redcube
+  - Level1Completed
+  - Level2Completed
+  - ARCyl1
+  - ARCyl2
+  - ARCyl3
+  - ARCyl4
+  - PlayerCube
+  - SimpleCube
+  - AR3
   layers:
   - Default
   - TransparentFX
@@ -15,7 +35,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - text
   - 
   - 
   - 
@@ -42,4 +62,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: text
+    uniqueID: 3746833235
     locked: 0

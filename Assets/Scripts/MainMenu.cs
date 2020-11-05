@@ -7,21 +7,23 @@ using System.IO;
 
 public class MainMenu : MonoBehaviour
 {
+    public int tut = 0;
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        tut = PlayerPrefs.GetInt("TutorialCompleted");
     }
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        if (tut == 0)
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
+        else
+        {
+            SceneManager.LoadScene("MainScene");
+        }
     }
 
     public void QuitGame()
